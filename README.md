@@ -2,7 +2,7 @@
 # Android Digital House
 Conteúdos do curso de Desenvolvimento Mobile Android
 
-## O que estou aprendendo?
+## O que aprendi?
 - Desenvolvimento Mobile Android
 
 ## Linguagens
