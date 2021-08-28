@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Digital House Foods</string>
+
+    <!--Tela Login-->
+    <string name="til_username">Email</string>
+    <string name="til_password">Password</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="btn_register">REGISTER</string>
+
+
+    <!--Tela Cadastro-->
+    <string name="Register">Register</string>
+    <string name="tilEmail">Email</string>
+    <string name="tilConfirmPassword">Confirmar senha</string>
+    <string name="btnCadastrar">Cadastrar</string>
+
+</resources>
