@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DesafioWebServices" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Red</item>
+        <item name="colorPrimaryVariant">@color/Red</item>
+        <item name="colorOnPrimary">@color/White</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Red</item>
+        <item name="colorSecondaryVariant">@color/Red</item>
+        <item name="colorOnSecondary">@color/Red</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/Blue</item>
+        <item name="android:colorBackground">@color/Blue</item>
+    </style>
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/Gray</item>
+        <item name="colorControlActivated">@color/Gray</item>
+        <item name="colorControlHighlight">@color/Gray</item>
+    </style>
+</resources>
