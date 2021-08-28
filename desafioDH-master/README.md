@@ -42,47 +42,47 @@
 -- fun adicionarUmAluno(umAluno: Aluno): Boolean
 
 - Criar um método na classe Curso que permita excluir um aluno da lista de alunos do curso.
--- fun excluirAluno(umAluno: Aluno)
+fun excluirAluno(umAluno: Aluno)
 
 ### Parte I
 - Criar um método na classe DigitalHouseManager que permita registrar um curso. O método recebe como parâmetros o nome do curso, o código e a quantidade máxima de alunos admitidos. O método deve criar um curso com os dados correspondentes e adicioná-lo à lista de cursos.
--- fun registrarCurso(nome: String, codigoCurso: Integer, quantidadeMaximaDeAlunos: Integer )
+fun registrarCurso(nome: String, codigoCurso: Integer, quantidadeMaximaDeAlunos: Integer )
 
 - Criar um método na classe DigitalHouseManager que permita excluir um curso. O método recebe como parâmetro o código do curso. O método deve utilizar o código do curso para encontrá-lo na lista de cursos e excluí-lo da lista. 
--- fun excluirCurso(codigoCurso: Integer)
+fun excluirCurso(codigoCurso: Integer)
 
 - Criar um método na classe DigitalHouseManager que permita registrar um professor adjunto. O método recebe como parâmetros o nome do professor, o sobrenome, o código e a quantidade de horas disponíveis para monitoria. O tempo de casa inicial do professor será zero. O método deve criar um professor adjunto com os dados correspondentes e adicioná-lo à lista de professores.
--- fun registrarProfessorAdjunto(nome: String , sobrenome: String , codigoProfessor: Integer, quantidadeDeHoras: Integer)
+fun registrarProfessorAdjunto(nome: String , sobrenome: String , codigoProfessor: Integer, quantidadeDeHoras: Integer)
 
 - Criar um método na classe DigitalHouseManager que permita registrar um professor titular. O método recebe como parâmetros o nome do professor, o sobrenome, o código e a especialidade. O tempo de casa inicial do professor será zero. O método deve criar um professor titular com os dados correspondentes e adicioná-lo à lista de professores.
--- fun registrarProfessorTitular(nome: String , sobrenome: String, codigoProfessor: Integer, especialidade: String)
+fun registrarProfessorTitular(nome: String , sobrenome: String, codigoProfessor: Integer, especialidade: String)
 
 - Criar um método na classe DigitalHouseManager que permita excluir um professor.  O método recebe como parâmetro o código do professor. O método deve utilizar o código do professor para encontrá-lo na lista de professores e eliminá-lo da lista. 
--- fun excluirProfessor(codigoProfessor: Integer)
+fun excluirProfessor(codigoProfessor: Integer)
 
 - Criar um método na classe DigitalHouseManager que permita registrar um aluno. O método recebe como parâmetros o nome, o sobrenome e o código do aluno. O método deve criar um aluno com os dados correspondentes e adicioná-lo à lista de alunos.
--- matricularAluno(nome: String, sobrenome: String, codigoAluno: Integer)
+matricularAluno(nome: String, sobrenome: String, codigoAluno: Integer)
 
 - Criar um método na classe DigitalHouseManager que permita matricular um aluno em um curso. O método recebe como parâmetros o código do aluno e o código do curso em que ele está se matriculando. 
--- matricularAluno(codigoAluno: Integer, codigoCurso:  Integer)
+matricularAluno(codigoAluno: Integer, codigoCurso:  Integer)
 
 - O método deve:
--- Encontrar o curso em que o aluno está se matriculando.
--- Encontrar o aluno que queremos matricular.
--- Matricular o aluno, se for possível.
--- No caso de ser possível, criar uma matrícula e configurá-la com os dados correspondentes.
--- Adicionar a matrícula à lista de matrículas.
--- Informar na tela que a matrícula foi realizada.
--- Se não houver vagas disponíveis:
--- Informar na tela que não foi possível realizar a matrícula porque não há vagas.
+Encontrar o curso em que o aluno está se matriculando.
+Encontrar o aluno que queremos matricular.
+Matricular o aluno, se for possível.
+No caso de ser possível, criar uma matrícula e configurá-la com os dados correspondentes.
+Adicionar a matrícula à lista de matrículas.
+Informar na tela que a matrícula foi realizada.
+Se não houver vagas disponíveis:
+Informar na tela que não foi possível realizar a matrícula porque não há vagas.
 
 - Criar um método na classe DigitalHouseManager que permita alocar professores a um curso. O método recebe como parâmetros o código do curso, o código do professor titular e o código do professor adjunto.
--- fun alocarProfessores(codigoCurso: Integer, codigoProfessorTitular:  Integer, codigoProfessorAdjunto: Integer)
+fun alocarProfessores(codigoCurso: Integer, codigoProfessorTitular:  Integer, codigoProfessorAdjunto: Integer)
 
 - O método deve:
--- Encontrar o professor titular na lista de professores.
--- Encontrar o professor adjunto na lista de professores.
--- Alocar ambos professores ao curso.
+Encontrar o professor titular na lista de professores.
+Encontrar o professor adjunto na lista de professores.
+Alocar ambos professores ao curso.
 
 ### Parte J
 - Criar uma classe Principal e a função main.
