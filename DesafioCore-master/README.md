@@ -1,6 +1,6 @@
 ## Desafio Core
 
-[layout](https://marvelapp.com/prototype/194b601g/screen/54520377)
+[Layout App](https://marvelapp.com/prototype/194b601g/screen/54520377)
 - App de cardápio de restaurante Digital House Foods
 - Tela splash;
 - Tela login
